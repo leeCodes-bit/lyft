@@ -97,20 +97,26 @@
 				container: '.testimonial-slider',
 				mode: 'carousel',
 				speed: 700,
-				items: 3,
-				gutter: 50,
-				autoplay: true,
+				items: 5,
+				gutter: 5,
+				autoplay: false,
 				autoplayButtonOutput: false,
 				controlsContainer: '#testimonial-nav',
 				responsive: {
 					0: {
 						items: 1
 					},
-					700: {
+					420: {
 						items: 2
 					},
-					900: {
+					600: {
 						items: 3
+					},
+					768: {
+						items: 4
+					},
+					900: {
+						items: 5
 					}
 				}
 			});

@@ -2773,7 +2773,7 @@ textarea.form-control-lg {
 }
 .form-floating > .form-control,
 .form-floating > .form-select {
-  height: calc(3.5rem + 2px);
+  /* height: calc(3.5rem + 2px); */
   padding: 1rem 0.75rem;
 }
 .form-floating > label {
@@ -2781,7 +2781,7 @@ textarea.form-control-lg {
   top: 0;
   left: 0;
   height: 100%;
-  padding: 1rem 0.75rem;
+  padding: 1rem 1.5rem;
   pointer-events: none;
   border: 1px solid transparent;
   -webkit-transform-origin: 0 0;
@@ -11367,10 +11367,11 @@ fieldset:disabled .btn {
   /* padding-top: 0px; */
   /* padding-bottom: 20px; */
   position: fixed;
+  background-color: #fff;
   top: 0;
   z-index: 9;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(233, 231, 231);
 }
 .site-nav h1,
 .site-nav .h1 {
@@ -11383,14 +11384,18 @@ fieldset:disabled .btn {
 }
 .site-nav .site-navigation .site-menu > li {
   display: inline-block;
+  /* border-left: 1px solid #222; */
+  /* outline: 2px solid red; */
 }
 .site-nav .site-navigation .site-menu > li > a {
-  font-size: 14px;
-  padding: 10px 15px;
+  font-size: 16px;
+  padding: 10px 25px;
   display: inline-block;
   text-decoration: none !important;
   color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
   border-left: 1px solid #222;
+  /* height: 50px; */
 }
 .site-nav .site-navigation .site-menu > li > a:hover {
   color: #8b37ff;
@@ -12860,10 +12865,10 @@ nav[aria-label="breadcrumb"] li:before {
   #driver .justify-content-between {
     flex-direction: column-reverse;
   }
-  #driver .col-lg-6{
+  #driver .col-lg-6 {
     margin-top: 200px;
   }
-  #driver .img-about .img-fluid{
+  #driver .img-about .img-fluid {
     margin-top: 50px;
     width: 100%;
   }
@@ -12953,11 +12958,11 @@ nav[aria-label="breadcrumb"] li:before {
   text-decoration: none;
 }
 
-@media(max-width: 768px){
-  .vaccine .vaccines{
+@media (max-width: 768px) {
+  .vaccine .vaccines {
     flex-direction: column-reverse;
   }
-  .vaccine .vaccines .col-lg-6{
+  .vaccine .vaccines .col-lg-6 {
     margin-top: -150px;
   }
 }
