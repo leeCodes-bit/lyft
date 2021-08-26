@@ -12048,6 +12048,10 @@ textarea {
   position: relative;
   z-index: 2;
 }
+.hero .hero-text {
+  margin-top: -200px;
+  text-align: left;
+}
 .hero h3 {
   font-size: 18px;
   font-weight: bold;
@@ -12058,6 +12062,7 @@ textarea {
   font-weight: 700;
   margin-bottom: 30px;
   line-height: 1.2;
+  letter-spacing: 1px;
 }
 .hero .button {
   background-color: #8b37ff;
@@ -12095,6 +12100,19 @@ textarea {
 @media (max-width: 767.98px) {
   .hero .heading {
     font-size: 36px;
+  }
+}
+@media (max-width: 768px) {
+  .hero .hero-text {
+    margin-top: 150px;
+    text-align: center;
+  }
+  .hero .image {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .hero .image2 {
+    display: none;
   }
 }
 .hero .lead {
@@ -12838,9 +12856,18 @@ nav[aria-label="breadcrumb"] li:before {
 }
 
 /* drive */
-/* #driver{
-  margin-top: 5rem;
-} */
+@media (max-width: 768px) {
+  #driver .justify-content-between {
+    flex-direction: column-reverse;
+  }
+  #driver .col-lg-6{
+    margin-top: 200px;
+  }
+  #driver .img-about .img-fluid{
+    margin-top: 50px;
+    width: 100%;
+  }
+}
 
 /* app */
 #app {
@@ -12924,6 +12951,15 @@ nav[aria-label="breadcrumb"] li:before {
 .vaccine .feature-h .feature-text .button:hover {
   background-color: #7223e0;
   text-decoration: none;
+}
+
+@media(max-width: 768px){
+  .vaccine .vaccines{
+    flex-direction: column-reverse;
+  }
+  .vaccine .vaccines .col-lg-6{
+    margin-top: -150px;
+  }
 }
 
 /* footer */
