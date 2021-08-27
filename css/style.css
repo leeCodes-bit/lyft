@@ -11394,8 +11394,8 @@ fieldset:disabled .btn {
   text-decoration: none !important;
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
-  border-left: 1px solid #222;
-  /* height: 50px; */
+  border-left: 1px solid rgb(194, 192, 192);
+  height: 50px;
 }
 .site-nav .site-navigation .site-menu > li > a:hover {
   color: #8b37ff;
